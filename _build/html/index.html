@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>THRUX Implementation Guide &mdash; THRUX 1.0.0.01 documentation</title>
+  
+
+  
+  
+  
+  
+    <link rel="canonical" href="https://www.thrux.ioindex.html"/>
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home" alt="Documentation Home"> THRUX
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">THRUX Implementation Guide</a><ul>
+<li><a class="reference internal" href="#branching">Branching</a></li>
+<li><a class="reference internal" href="#preparing-drawings">Preparing Drawings</a><ul>
+<li><a class="reference internal" href="#riser">Riser</a></li>
+<li><a class="reference internal" href="#one-line">One-Line</a></li>
+<li><a class="reference internal" href="#schedules-and-schedule-views">Schedules and Schedule Views</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">THRUX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>THRUX Implementation Guide</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="thrux-implementation-guide">
+<h1>THRUX Implementation Guide<a class="headerlink" href="#thrux-implementation-guide" title="Permalink to this headline">¶</a></h1>
+<p>This guide is aimed to help designers manage their workflows throughout the design lifecycles of their projects.  And it will also show examples of how to turn their THRUX models into deliverable documents.</p>
+<p>We will cover Branches, Issuances, and exporting your designs to AutoCAD or Excel.</p>
+<div class="section" id="branching">
+<h2>Branching<a class="headerlink" href="#branching" title="Permalink to this headline">¶</a></h2>
+<p>What is a Branch?</p>
+<p>What are common ways to use Branches?</p>
+</div>
+<div class="section" id="preparing-drawings">
+<h2>Preparing Drawings<a class="headerlink" href="#preparing-drawings" title="Permalink to this headline">¶</a></h2>
+<p>Once your design is reviewed and ready to be issued, the next step is to export your design.</p>
+<p>The goal is to get a THRUX model into a drafting environment like AutoCAD or Revit to produce a deliverable to Contractors.</p>
+<p>The Riser, One-Line, and Schedules are exportable to AutoCAD.</p>
+<p>Schedules are also exportable to Excel.</p>
+<p>The Studies are flexible reports which can be printed in PDF format.</p>
+<dl class="simple">
+<dt>Once you have built a THRUX model, follow this general workflow as needed for your projects:</dt><dd><ul class="simple">
+<li><p>Export Riser to AutoCAD</p></li>
+<li><p>Export One-Line to AutoCAD</p></li>
+<li><p>Export Schedules to AutoCAD</p></li>
+</ul>
+</dd>
+</dl>
+<div class="section" id="riser">
+<h3>Riser<a class="headerlink" href="#riser" title="Permalink to this headline">¶</a></h3>
+<p>Export the Riser to AutoCAD by clicking on the down arrow.</p>
+<div class="figure align-center">
+<img alt="_images/ExportRiser.PNG" src="_images/ExportRiser.PNG" />
+</div>
+</div>
+<div class="section" id="one-line">
+<h3>One-Line<a class="headerlink" href="#one-line" title="Permalink to this headline">¶</a></h3>
+<p>Export the One-Line to AutoCAD by clicking on the down arrow.</p>
+<div class="figure align-center">
+<img alt="_images/ExportOneLine.PNG" src="_images/ExportOneLine.PNG" />
+</div>
+</div>
+<div class="section" id="schedules-and-schedule-views">
+<h3>Schedules and Schedule Views<a class="headerlink" href="#schedules-and-schedule-views" title="Permalink to this headline">¶</a></h3>
+<p>Schedule Views are groupings of electrical Schedules.  For example, designers may group their Schedules by size or by priority.  In other words, the main or larger panels are grouped together, and the utility or emergency panels are placed in another group.</p>
+<p>It is possible to export all of your Schedules at the same time, however, that operation may take longer and it may be more beneficial to export Schedules in smaller groups.</p>
+<p>These Views can be viewed at any time.</p>
+<div class="figure align-center" id="id1">
+<img alt="_images/ScheduleSetup-0.PNG" src="_images/ScheduleSetup-0.PNG" />
+<p class="caption"><span class="caption-text">Saving a group of Schedules as a Schedule View</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<p>After you create your Views, you can export your Schedules to AutoCAD.</p>
+<p>Click on the down arrow and then click “Export To AutoCAD: Selected.”</p>
+<div class="figure align-center" id="id2">
+<img alt="_images/ScheduleSetup-1.PNG" src="_images/ScheduleSetup-1.PNG" />
+<p class="caption"><span class="caption-text">Saving a group of Schedules as E-500</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Give the file name the same name as your Schedule View.  The names of your files will follow this format:</p>
+<ul class="simple">
+<li><p>FileName_Equipment_Name.dwg</p></li>
+</ul>
+<p>You should see multiple instances of AcCoreConsole (Command Prompt) opening on your screen.  This will create multiple AutoCAD files in your directory.</p>
+<div class="figure align-center" id="id3">
+<img alt="_images/ScheduleSetup-2.PNG" src="_images/ScheduleSetup-2.PNG" />
+<p class="caption"><span class="caption-text">Exporting Schedules to AutoCAD</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>We’ve created a folder which holds all of our THRUX exports.</p>
+<div class="figure align-center" id="id4">
+<img alt="_images/ScheduleSetup-3.PNG" src="_images/ScheduleSetup-3.PNG" />
+<p class="caption"><span class="caption-text">THRUX Schedules</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p>In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules.  When the design changes, we can export our schedules, and our drawings will update.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, KT.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
