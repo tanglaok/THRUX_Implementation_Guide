@@ -8,11 +8,34 @@ We will cover Branches, Issuances, and exporting your designs to AutoCAD or Exce
 Branching
 ---------
 
-What is a Branch?
+What is a Branch?  What are common ways to use Branches?
 
-What are common ways to use Branches?
+Branching is a tool to help aid the efforts of project management.
 
+Every project has a default Branch which is called the Base Branch.
 
+.. figure:: images/Branching-0.PNG
+    :align: center
+
+    Issuance Log displays the default Base Branch
+
+The idea is to create a Branch once you know the scope of work for your next issuance.
+
+Creating a Branch is like creating a copy of a Branch, however, this allows for additional functionality.
+
+A Branch can be compared against one of it's previous Branches.
+
+.. figure:: images/Branching-1.PNG
+    :align: center
+
+    Using the Issuance Log to view the project history
+
+A timeline is displayed at the bottom of the Issuance Log to help visualize change management.
+
+.. figure:: images/Branching-2.PNG
+    :align: center
+
+    Branch History is displayed at the bottom of the Issuance Log
 
 Preparing Drawings
 ------------------
@@ -27,10 +50,12 @@ Schedules are also exportable to Excel.
 
 The Studies are flexible reports which can be printed in PDF format.
 
-Once you have built a THRUX model, follow this general workflow as needed for your projects:
-  * Export Riser to AutoCAD
-  * Export One-Line to AutoCAD
-  * Export Schedules to AutoCAD
+Once you have built a THRUX model, export the documents you need as necessary.  The following information is exportable:
+  * Riser
+  * One-Line
+  * Schedules
+  * Studies
+  * Pricing Report
 
 Riser
 ^^^^^
@@ -72,7 +97,7 @@ Click on the down arrow and then click "Export To AutoCAD: Selected."
 
     Saving a group of Schedules as E-500
 
-Give the file name the same name as your Schedule View.  The names of your files will follow this format:
+Name the file with the same name as your Schedule .
 
 * FileName_Equipment_Name.dwg
 
