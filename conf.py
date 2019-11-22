@@ -154,7 +154,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'THRUX.tex', 'THRUX Documentation',
+    (master_doc, 'THRUX.tex', 'TTHRUX Implementation Guide',
      'KT', 'manual'),
 ]
 
@@ -164,7 +164,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'thrux', 'THRUX Documentation',
+    (master_doc, 'thrux', 'THRUX Implementation Guide',
      [author], 1)
 ]
 
@@ -175,7 +175,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'THRUX', 'THRUX Documentation',
+    (master_doc, 'THRUX', 'THRUX Implementation Guide',
      author, 'THRUX', 'One line description of project.',
      'Miscellaneous'),
 ]

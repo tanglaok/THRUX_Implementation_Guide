@@ -1,6 +1,9 @@
 THRUX Implementation Guide
 ==========================
 
+Introduction
+------------
+
 This guide is aimed to help designers manage their workflows throughout the design lifecycles of their projects.  And it will also show examples of how to turn their THRUX models into deliverable documents.
 
 We will cover Branches, Issuances, and exporting your designs to AutoCAD or Excel.
@@ -122,7 +125,7 @@ In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules. 
 
 
 Summary
-^^^^^^^^
+-------
 
 Create a :ref:`Branch <Branching>` once you know the scope of work for your next Issuance.  Various aspects of THRUX models are exportable in multiple formats.  Set up :ref:`Schedule Views <Schedule-Views>` to view Schedules in groups and to set up your AutoCAD XREFs.
 
