@@ -102,7 +102,7 @@ Click on the down arrow and then click "Export To AutoCAD: Selected."
 
 Name the file with the same name as your Schedule .
 
-* FileName_Equipment_Name.dwg
+  * FileName_Equipment_Name.dwg
 
 You should see multiple instances of AcCoreConsole (Command Prompt) opening on your screen.  This will create multiple AutoCAD files in your directory.
 
@@ -125,3 +125,8 @@ Summary
 ^^^^^^^^
 
 Create a :ref:`Branch <Branching>` once you know the scope of work for your next Issuance.  Various aspects of THRUX models are exportable in multiple formats.  Set up :ref:`Schedule Views <Schedule-Views>` to view Schedules in groups and to set up your AutoCAD XREFs.
+
+Feel free to contact us at Support with any questions.
+
+  * thruxservices@thrux.io
+  * https://www.thrux.io
