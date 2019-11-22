@@ -39,6 +39,7 @@ A timeline is displayed at the bottom of the Issuance Log to help visualize chan
 
 .. figure:: images/Branching-2.PNG
     :align: center
+    :scale: 75
 
     Branch History is displayed at the bottom of the Issuance Log
 
@@ -62,6 +63,10 @@ Once you have built a THRUX model, export the documents you need as necessary.  
   * Studies
   * Pricing Report
 
+.. raw:: latex
+
+    \newpage
+
 Riser
 ^^^^^
 
@@ -70,6 +75,10 @@ Export the Riser to AutoCAD by clicking on the down arrow.
 .. figure:: images/ExportRiser.PNG
     :align: center
 
+.. raw:: latex
+
+    \newpage
+
 One-Line
 ^^^^^^^^
 
@@ -77,6 +86,10 @@ Export the One-Line to AutoCAD by clicking on the down arrow.
 
 .. figure:: images/ExportOneLine.PNG
     :align: center
+
+.. raw:: latex
+
+    \newpage
 
 .. _Schedule-Views:
 
@@ -93,6 +106,10 @@ These Views can be viewed at any time.
     :align: center
 
     Saving a group of Schedules as a Schedule View
+
+.. raw:: latex
+
+    \newpage
 
 After you create your Views, you can export your Schedules to AutoCAD.  
 
@@ -123,11 +140,26 @@ We've created a folder which holds all of our THRUX exports.
 
 In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules.  When the design changes, we can export our schedules, and our drawings will update.
 
+.. raw:: latex
+
+    \newpage
+
+Linking AutoCAD and Revit
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+There is also a way to link AutoCAD files and Revit mdoels.
+
+Inside your Drafting View (Revit), click on the Insert tab.  Then click on Link CAD.
+
+.. figure:: images/RevitLinkCAD-0.PNG
+    :align: center
+
+    Note that if you change the original AutoCAD file, you must remember to reload it in Revit.
 
 Summary
 -------
 
-Create a :ref:`Branch <Branching>` once you know the scope of work for your next Issuance.  Various aspects of THRUX models are exportable in multiple formats.  Set up :ref:`Schedule Views <Schedule-Views>` to view Schedules in groups and to set up your AutoCAD XREFs.
+Create a :ref:`Branch <Branching>` once you know the scope of work for your next Issuance.  Various aspects of THRUX models are exportable in multiple formats.  Set up :ref:`Schedule Views <Schedule-Views>` to view Schedules in groups and to set up your AutoCAD XREFs.  Link your CAD files to Revit and reload them as necessary.
 
 Feel free to contact us at Support with any questions.
 
