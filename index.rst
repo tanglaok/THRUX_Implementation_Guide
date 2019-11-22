@@ -5,6 +5,8 @@ This guide is aimed to help designers manage their workflows throughout the desi
 
 We will cover Branches, Issuances, and exporting your designs to AutoCAD or Excel.
 
+.. _Branching:
+
 Branching
 ---------
 
@@ -73,6 +75,7 @@ Export the One-Line to AutoCAD by clicking on the down arrow.
 .. figure:: images/ExportOneLine.PNG
     :align: center
 
+.. _Schedule-Views:
 
 Schedules and Schedule Views
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -118,3 +121,7 @@ We've created a folder which holds all of our THRUX exports.
 In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules.  When the design changes, we can export our schedules, and our drawings will update.
 
 
+Summary
+^^^^^^^^
+
+Create a :ref:`Branch <Branching>` once you know the scope of work for your next Issuance.  Various aspects of THRUX models are exportable in multiple formats.  Set up :ref:`Schedule Views <Schedule-Views>` to view Schedules in groups and to set up your AutoCAD XREFs.
