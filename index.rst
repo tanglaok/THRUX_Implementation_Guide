@@ -138,11 +138,21 @@ We've created a folder which holds all of our THRUX exports.
 
     THRUX Schedules
 
-In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules.  When the design changes, we can export our schedules, and our drawings will update.
+In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules.  When the design changes, we can export our schedules, and our drawings will update.  
 
 .. raw:: latex
 
     \newpage
+
+Linking Excel and AutoCAD
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Note that it is also possible to export Schedules to Excel.  Additional formatting can be done in either Excel or AutoCAD.
+
+.. figure:: images/ExcelCADLink-0.PNG
+    :align: center
+    
+    Create an Excel Link in AutoCAD
 
 Linking AutoCAD and Revit
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -154,7 +164,7 @@ Inside your Drafting View (Revit), click on the Insert tab.  Then click on Link 
 .. figure:: images/RevitLinkCAD-0.PNG
     :align: center
 
-    Note that if you change the original AutoCAD file, you must remember to reload it in Revit.
+    Note that if you change the original AutoCAD file, you must remember to reload it in Revit
 
 Summary
 -------
