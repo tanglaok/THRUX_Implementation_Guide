@@ -120,9 +120,9 @@ Click on the down arrow and then click "Export To AutoCAD: Selected."
 
     Saving a group of Schedules as E-500
 
-Name the file with the same name as your Schedule .
+Name the file with the same name as your Schedule View.  Your Schedules will follow this naming scheme:
 
-  * FileName_Equipment_Name.dwg
+  * ScheduleViewName_Equipment_Name.dwg
 
 You should see multiple instances of AcCoreConsole (Command Prompt) opening on your screen.  This will create multiple AutoCAD files in your directory.
 
@@ -131,12 +131,12 @@ You should see multiple instances of AcCoreConsole (Command Prompt) opening on y
 
     Exporting Schedules to AutoCAD
 
-We've created a folder which holds all of our THRUX exports.
+In this example we've created a folder which holds all of our THRUX exports.
 
 .. figure:: images/ScheduleSetup-3.PNG
     :align: center
 
-    THRUX Schedules
+    THRUX Schedules in their own folder
 
 In AutoCAD, now we can set up a single drawing which XREFs our THRUX Schedules.  When the design changes, we can export our schedules, and our drawings will update.  
 
